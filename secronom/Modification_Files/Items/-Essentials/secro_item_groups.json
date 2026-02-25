@@ -60,5 +60,183 @@
       [ "bio_jointservo", 20 ],
       [ "bio_shotgun", 10 ]
     ]
+  },
+  {
+    "id": "trash",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "hoarder", "prob": 10 },
+      { "group": "messy_floor_clutter", "prob": 10 },
+      { "group": "untidy_floor_clutter", "prob": 10 },
+      { "group": "SUS_trash_floor", "prob": 30 },
+      { "group": "SUS_trash_trashcan", "prob": 30 }
+    ]
+  },
+  {
+    "id": "oven",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      [ "pot", 50 ],
+      [ "pan", 50 ],
+      [ "steel_pan", 45 ],
+      [ "copper_pan", 35 ],
+      [ "pot_canning", 10 ],
+      [ "pot_copper", 25 ],
+      [ "iron_pot", 25 ],
+      [ "casserole", 25 ],
+      [ "stock_pot", 15 ],
+      [ "pressure_cooker", 5 ]
+    ]
+  },
+  {
+    "id": "fridge",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "snacks", "prob": 370 },
+      { "group": "condiments", "prob": 425 },
+      { "item": "sweet_sausage", "prob": 2 },
+      { "prob": 25, "group": "fchicken_box_small_4" },
+      { "item": "lunchmeat", "prob": 10 },
+      { "prob": 10, "group": "bologna_bag_plastic_10" },
+      { "item": "nachosc", "prob": 10 },
+      { "item": "nachosm", "prob": 10 },
+      { "item": "nachosmc", "prob": 2 },
+      { "prob": 8, "group": "pizza_veggy_box_small_4" },
+      { "prob": 8, "group": "pizza_meat_box_small_4" },
+      { "prob": 8, "group": "pizza_cheese_box_small_4" },
+      { "item": "cheeseburger", "prob": 8 },
+      { "item": "hamburger", "prob": 8 },
+      { "item": "fish_fried", "prob": 8 },
+      { "item": "fish_sandwich", "prob": 8 },
+      { "item": "sloppyjoe", "prob": 8 },{ "prob": 8, "group": "hotdogs_frozen_bag_plastic_10" },
+      { "prob": 8, "group": "corndogs_frozen_bag_plastic_2" },
+      { "item": "heatpack", "prob": 60 },
+      { "prob": 40, "group": "beans_in_can" },
+      { "prob": 40, "group": "pork_beans_in_can" },
+      { "prob": 40, "group": "chicken_in_can" },
+      { "prob": 40, "group": "tomatoes_in_can" },
+      { "item": "cooked_pumpkin", "prob": 20 },
+      { "item": "con_milk", "prob": 20 },
+      { "item": "milk_evap", "prob": 20 },
+      { "prob": 35, "group": "corn_in_can" },
+      { "prob": 30, "group": "spam_in_can" },
+      { "prob": 30, "group": "pineapple_in_can" },
+      { "item": "can_peach", "prob": 30 },
+      { "item": "can_coconut", "prob": 10 },
+      { "group": "sardine_in_can", "prob": 14 },
+      { "group": "tuna_in_can", "prob": 35 },
+      { "group": "clams_in_can", "prob": 25 },
+      { "prob": 35, "group": "chowder_in_can" },
+      { "prob": 30, "group": "can_herring_jar_glass_sealed_2" },
+      { "item": "broth", "prob": 15 },
+      { "item": "soup_veggy", "prob": 15 },
+      { "item": "soup_meat", "prob": 15 },
+      { "item": "soup_chicken", "prob": 15 },
+      { "item": "soup_mushroom", "prob": 15 },
+      { "item": "soup_tomato", "prob": 15 },
+      { "item": "soup_dumplings", "prob": 15 },
+      { "item": "curry_veggy", "prob": 15 },
+      { "item": "curry_meat", "prob": 15 },
+      { "prob": 15, "group": "curry_powder_various" },
+      { "prob": 10, "group": "chilly-p_various" },
+      { "item": "spaghetti_raw", "prob": 40 },
+      { "item": "lasagne_raw", "prob": 40 },
+      { "item": "macaroni_raw", "prob": 40 },
+      { "item": "noodles_fast", "prob": 30 },
+      { "prob": 25, "group": "ravioli_in_can" },
+      { "item": "sauce_red", "prob": 20 },
+      { "item": "gelatin_dessert_powder", "prob": 20 },
+      { "item": "sauce_pesto", "prob": 15 },
+      { "prob": 14, "group": "bread_in_bag" },
+      { "prob": 7, "group": "garlic_bread_in_bag" },
+      { "prob": 7, "group": "cornbread_in_bag" },
+      { "prob": 7, "group": "flatbread_in_bag" },
+      { "prob": 20, "item": "crackers", "count": [ 1, -1 ] },
+      { "prob": 20, "item": "grahmcrackers", "count": [ 2, -1 ] },
+      { "prob": 15, "group": "oyster_crackers_plastic_bag_vac_8" },
+      { "prob": 20, "item": "marshmallow", "count": [ 1, -1 ] },
+      { "prob": 12, "group": "biscuit_box_small_10" },
+      { "item": "hardtack", "prob": 2, "count": 2 },
+      { "prob": 40, "group": "cheese_bag_plastic" },
+      { "prob": 5, "group": "cheese_hard_wrapper_8" },
+      { "prob": 8, "group": "cheese_in_can" },
+      { "item": "cottage_cheese", "prob": 8 },
+      { "item": "yoghurt", "prob": 8 },
+      { "item": "pudding", "prob": 10 },
+      { "item": "gelatin_dessert_processed", "prob": 10 },
+      { "prob": 8, "group": "veggy_pickled_jar_glass_sealed_2" },
+      { "prob": 5, "group": "sauerkraut_jar_glass_sealed_2" },
+      { "prob": 4, "group": "meat_pickled_jar_glass_sealed_2" },
+      { "prob": 6, "group": "fish_pickled_jar_glass_sealed_2" },
+      { "item": "ghee", "prob": 5 },
+      { "item": "lutefisk", "prob": 1 },
+      { "item": "tongs", "prob": 25 },
+      { "item": "lawn_dart", "prob": 10 },
+      { "item": "flask_hip", "prob": 5 },
+      { "group": "lye_powder_bottle_part", "prob": 5 }
+    ]
+  },
+  {
+    "id": "pasta",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "spaghetti_raw", "prob": 40 },
+      { "item": "lasagne_raw", "prob": 40 },
+      { "item": "macaroni_raw", "prob": 40 },
+      { "item": "noodles_fast", "prob": 30 }
+    ]
+  },
+  {
+    "id": "trash_forest",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "drugdealer", "prob": 20 },
+      { "group": "college_camping", "prob": 20 },
+      { "group": "college_sports", "prob": 20 },
+      { "group": "road", "prob": 30 }
+    ]
+  },
+  {
+    "id": "fridgesnacks",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "fridge", "prob": 95 }
+    ]
+  },
+  {
+    "id": "restaur_trash",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items":[
+      { "group": "bowling_food", "prob": 40 },
+      { "group": "bowling_fridge", "prob": 30 },
+      { "group": "subway", "prob": 20 },
+      { "group": "trash", "prob": 20 }
+    ]
+  },
+  {
+    "id": "guns_pistol_obscure",
+    "//": "port rare to milspec",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "guns_pistol_milspec", "prob": 95 }
+    ]
+  },
+  {
+    "id": "guns_pistol_rare",
+    "//": "port legaobscurecy to milspec",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "guns_pistol_rare_9mm", "prob": 95 },
+      { "group": "guns_pistol_rare_display_9mm", "prob": 95 }
+    ]
   }
 ]
