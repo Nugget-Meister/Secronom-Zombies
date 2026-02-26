@@ -1,8 +1,9 @@
 [
   {
-    "type": "region_overlay",
-    "regions": [ "all" ],
-    "map_extras": {
+    "type": "region_settings",
+    "id": "default",
+    "copy-from": "default",
+    "extend": {
       "agricultural": { "extras": { "mx_secro_flesh_random": 45 } },
       "forest": { "extras": { "mx_secro_saddler_victims_spawn": 7, "mx_secro_carrion_spawn": 10, "mx_secro_vector_spawn": 0, "mx_secro_flesh_random": 30, "mx_secro_carrion_massacre_spawn": 3, "mx_secro_carrion_massacre_smol_spawn": 10 } },
       "forest_thick": { "extras": { "mx_secro_saddler_victims_spawn": 7, "mx_secro_carrion_spawn": 10, "mx_secro_vector_spawn": 0, "mx_secro_fleshweaver_spawn": 0, "mx_secro_flesh_random": 40, "mx_secro_carrion_massacre_spawn": 5, "mx_secro_carrion_massacre_smol_spawn": 13 } },
