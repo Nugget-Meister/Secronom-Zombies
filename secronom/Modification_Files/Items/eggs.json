@@ -1,22 +1,27 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "saddler_egg",
-    "name": { "str": "saddler egg" },
-    "weight": "110 g",
-    "color": "green",
     "comestible_type": "FOOD",
+    "name": { "str": "saddler egg" },
+    "color": "green",
     "symbol": "%",
-    "quench": -5,
-    "nutrition": -30,
-    "description": "Dreadful hairy egg. Dare to eat this!",
-    "price": "0 cent",
     "material": [ "egg" ],
     "volume": "250 ml",
-    "fun": -50
+    "weight": "110 g",
+    "quench": -5,
+    "calories": 235,
+    "fun": -50,
+    "description": "Dreadful hairy egg. Dare to eat this!",
+    "price": "0 cent",
+    "flags": [ "FREEZERBURN", "RAW", "NO_AUTO_CONSUME" ],
+    "vitamins": [ [ "calcium", 7 ], [ "iron", 18 ], [ "mutant_toxin", 25 ], [ "egg_allergen", 1 ] ]
+
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "hatchingsaddleregg",
     "name": { "str": "cracked saddler egg" },
     "weight": "110 g",
@@ -38,7 +43,7 @@
     }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "saddler_egg_hatched",
     "looks_like": "hatchingsaddleregg",
     "symbol": ",",

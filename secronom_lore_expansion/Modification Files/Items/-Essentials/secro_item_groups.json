@@ -20,8 +20,8 @@
   },
   {
     "type": "item_group",
-    "id": "mags_rifle_rare",
-    "copy-from": "mags_rifle_rare",
+    "id": "mags_swat",
+    "copy-from": "mags_swat",
     "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
     "extend": { "items": [ [ "cheytacmag", 25 ], [ "hecatemag", 15 ], [ "walther2000mag", 20 ] ] }
   },

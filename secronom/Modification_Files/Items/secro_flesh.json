@@ -1,6 +1,6 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "secro_flesh_core",
     "looks_like": "secro_flesh",
     "symbol": "o",
