@@ -8,9 +8,8 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
-    "placate_triggers": [  ]
+    "placate_triggers": [  ] 
   },
   {
     "id": "mon_sflesh_grouse",
@@ -21,7 +20,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -34,7 +32,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -47,7 +44,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -60,7 +56,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -73,7 +68,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -86,7 +80,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -99,7 +92,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -112,7 +104,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -125,7 +116,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -138,7 +128,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -151,7 +140,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -165,7 +153,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -179,7 +166,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -193,7 +179,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -207,7 +192,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -221,7 +205,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -235,7 +218,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -249,7 +231,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -263,7 +244,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -277,7 +257,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -291,7 +270,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -305,7 +283,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -319,7 +296,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -333,21 +309,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
-    "fear_triggers": [  ],
-    "placate_triggers": [  ]
-  },
-  {
-    "id": "mon_sflesh_goose_golden_chick",
-    "copy-from": "mon_goose_golden_chick",
-    "type": "MONSTER",
-    "default_faction": "secro_flesh3",
-    "relative": { "melee_skill": 1, "armor": { "bash": 3 } },
-    "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
-    "regen_morale": true,
-    "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -361,7 +322,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -375,7 +335,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -389,7 +348,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -403,7 +361,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -417,7 +374,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -431,7 +387,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -445,7 +400,6 @@
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
     "upgrades": {  },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -458,7 +412,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -471,7 +424,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -484,20 +436,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
-    "fear_triggers": [  ],
-    "placate_triggers": [  ]
-  },
-  {
-    "id": "mon_sflesh_goose_golden",
-    "copy-from": "mon_goose_golden",
-    "type": "MONSTER",
-    "default_faction": "secro_flesh3",
-    "relative": { "melee_skill": 1, "armor": { "bash": 3 } },
-    "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
-    "regen_morale": true,
-    "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -510,7 +448,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -523,7 +460,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -536,7 +472,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -549,7 +484,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -562,7 +496,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   },
@@ -575,7 +508,6 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "regen_morale": true,
     "extend": { "species": [ "SFLESH" ], "flags": [ "NO_BREED" ] },
-    "delete": { "species": [ "BIRD" ], "flags": [ "ANIMAL" ] },
     "fear_triggers": [  ],
     "placate_triggers": [  ]
   }
