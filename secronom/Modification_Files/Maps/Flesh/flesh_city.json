@@ -172,7 +172,6 @@
   {
     "//": "Mil surplus",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 150,
     "object": {
@@ -230,7 +229,6 @@
   {
     "//": "Mil surplus",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 150,
     "object": {
@@ -289,7 +287,6 @@
   },
   {
     "//": "Mil surplus",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "type": "mapgen",
     "weight": 150,
@@ -370,7 +367,6 @@
   {
     "//": "Gym",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 500,
     "object": {
@@ -442,7 +438,6 @@
   {
     "//": "Gym",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 500,
     "object": {
@@ -522,7 +517,6 @@
   {
     "//": "Doctor's Office",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 200,
     "object": {
@@ -563,7 +557,7 @@
         "c": { "item": "gear_medical", "chance": 60, "repeat": [ 2, 4 ] },
         "e": { "item": "fridge", "chance": 80, "repeat": [ 2, 4 ] },
         "t": { "item": "gear_medical", "chance": 60, "repeat": [ 2, 4 ] },
-        "f": { "item": "office_paper", "chance": 70, "repeat": [ 1, 3 ] }
+        "f": { "item": "SUS_office_filing_cabinet", "chance": 70, "repeat": [ 1, 3 ] }
       },
       "place_items": [ { "item": "record_patient", "x": 7, "y": 6, "chance": 50 } ],
       "computers": {
@@ -585,7 +579,6 @@
   {
     "//": "Doctor's Office",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 200,
     "object": {
@@ -639,7 +632,6 @@
   {
     "//": "Doctor's Office",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 200,
     "object": {
@@ -696,7 +688,7 @@
         "C": { "item": "dresser", "chance": 75 },
         "O": { "item": "bionics", "chance": 40 },
         "T": { "item": "office_breakroom", "chance": 80 },
-        "f": { "item": "office_paper", "chance": 90 },
+        "f": { "item": "SUS_office_filing_cabinet", "chance": 90 },
         "H": [
           { "item": "harddrugs", "chance": 60 },
           { "item": "gear_medical", "chance": 60, "repeat": [ 1, 3 ] },
@@ -726,7 +718,6 @@
   {
     "//": "Pharmacy",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 300,
     "object": {
@@ -798,7 +789,7 @@
         "6": { "item": "vitamin_shop", "chance": 60, "repeat": [ 1, 10 ] },
         "7": { "item": "cleaning", "chance": 50, "repeat": [ 1, 6 ] },
         "8": { "item": "behindcounter", "chance": 50, "repeat": [ 1, 6 ] },
-        "9": { "item": "pet_food", "chance": 20, "repeat": [ 1, 3 ] },
+        "9": { "item": "pet_food_in_container", "chance": 20, "repeat": [ 1, 3 ] },
         "L": { "item": "drugs_pharmacy", "chance": 60, "repeat": [ 1, 6 ] }
       },
       "vehicles": { ".": { "vehicle": "shopping_cart", "chance": 1, "status": 1 } },
@@ -808,7 +799,6 @@
   {
     "//": "Pharmacy",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 300,
     "object": {
@@ -888,7 +878,7 @@
         "6": { "item": "vitamin_shop", "chance": 60, "repeat": [ 1, 8 ] },
         "7": { "item": "cleaning", "chance": 60, "repeat": [ 1, 6 ] },
         "8": { "item": "behindcounter", "chance": 60, "repeat": [ 1, 6 ] },
-        "9": { "item": "pet_food", "chance": 20, "repeat": [ 1, 3 ] },
+        "9": { "item": "pet_food_in_container", "chance": 20, "repeat": [ 1, 3 ] },
         "x": { "item": "drugs_pharmacy", "chance": 60, "repeat": [ 1, 6 ] },
         "&": { "item": "jackets", "chance": 30 },
         "G": { "item": "behindcounter", "chance": 60 },
@@ -899,7 +889,6 @@
   {
     "//": "Butcher Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 350,
     "object": {
@@ -993,7 +982,6 @@
   {
     "//": "Butcher Shop",
     "type": "mapgen",
-    "method": "json",
     "weight": 350,
     "om_terrain": [ "s_shop_flesh" ],
     "object": {
@@ -1084,7 +1072,6 @@
   {
     "//": "Butcher Shop",
     "type": "mapgen",
-    "method": "json",
     "weight": 350,
     "om_terrain": [ "s_shop_flesh" ],
     "object": {
@@ -1165,7 +1152,6 @@
   {
     "//": "Grocery Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 750,
     "object": {
@@ -1204,7 +1190,6 @@
         "-": "t_secro_wall_w_flesh",
         "7": "t_secro_linoleum_white_flesh",
         "=": "t_secro_wall_g_flesh",
-        "A": "t_secro_atm_flesh",
         "C": "t_secro_floor_flesh",
         "I": "t_secro_door_metal_locked_flesh",
         "L": "t_secro_door_locked_flesh",
@@ -1227,6 +1212,7 @@
         "|": "t_secro_wall_w_flesh"
       },
       "furniture": {
+        "A": "t_secro_atm_flesh",
         "#": "f_counter",
         "7": "f_bookcase",
         "%": "f_secro_console_broken_flesh",
@@ -1255,7 +1241,7 @@
         { "item": "behindcounter", "x": [ 18, 20 ], "y": 8, "chance": 80, "repeat": [ 1, 12 ] },
         { "item": "magazines", "x": [ 18, 20 ], "y": 9, "chance": 80, "repeat": [ 4, 16 ] },
         { "item": "novels", "x": 18, "y": [ 10, 12 ], "chance": 80, "repeat": [ 2, 8 ] },
-        { "item": "groce_cereal", "x": 8, "y": [ 14, 15 ], "chance": 80, "repeat": [ 1, 12 ] },
+        { "item": "breakfast_cereal_in_box", "x": 8, "y": [ 14, 15 ], "chance": 80, "repeat": [ 1, 12 ] },
         { "item": "groce_bread", "x": 8, "y": [ 16, 18 ], "chance": 80, "repeat": [ 1, 12 ] },
         { "item": "groce_pasta", "x": 11, "y": [ 14, 15 ], "chance": 80, "repeat": [ 1, 12 ] },
         { "item": "groce_ingredient", "x": 11, "y": [ 16, 18 ], "chance": 80, "repeat": [ 1, 12 ] },
@@ -1294,7 +1280,6 @@
   {
     "//": "Grocery Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 750,
     "object": {
@@ -1366,7 +1351,6 @@
   {
     "//": "Hardware Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 375,
     "object": {
@@ -1444,7 +1428,6 @@
   {
     "//": "Hardware Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 375,
     "object": {
@@ -1547,7 +1530,6 @@
   {
     "//": "Hardware Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 375,
     "object": {
@@ -1634,7 +1616,6 @@
   {
     "//": "Hardware Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 375,
     "object": {
@@ -1725,7 +1706,6 @@
   {
     "//": "Electronics Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 325,
     "object": {
@@ -1830,7 +1810,6 @@
   {
     "//": "Electronics Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 325,
     "object": {
@@ -1899,7 +1878,7 @@
       "toilets": { "&": {  } },
       "items": {
         "I": { "item": "office", "chance": 30 },
-        "F": { "item": "office_paper", "chance": 30 },
+        "F": { "item": "SUS_office_filing_cabinet", "chance": 30 },
         "Y": { "item": "trash", "chance": 20, "repeat": [ 1, 2 ] },
         "M": { "item": "consumer_electronics", "chance": 70, "repeat": [ 1, 4 ] },
         "#": { "item": "consumer_electronics", "chance": 75, "repeat": [ 1, 4 ] },
@@ -1916,7 +1895,6 @@
   {
     "//": "Gun Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 125,
     "object": {
@@ -1988,26 +1966,26 @@
         { "group": "guns_pistol_rare", "x": 13, "y": 11, "chance": 15, "magazine": 100 },
         { "group": "guns_shotgun_common", "x": 16, "y": 9, "chance": 50, "magazine": 100 },
         { "group": "guns_shotgun_common", "x": 16, "y": 10, "chance": 100, "magazine": 100 },
-        { "group": "guns_shotgun_rare_static", "x": 16, "y": 11, "chance": 25, "magazine": 100 },
+        { "group": "guns_swat", "x": 16, "y": 11, "chance": 25, "magazine": 100 },
         { "group": "guns_rifle_common", "x": 20, "y": 7, "chance": 25, "magazine": 100 },
-        { "group": "guns_rifle_rare", "x": 20, "y": 8, "chance": 25, "magazine": 100 },
+        { "group": "guns_smg_milspec", "x": 20, "y": 8, "chance": 25, "magazine": 100 },
         { "group": "guns_rifle_common", "x": 20, "y": 9, "chance": 90, "repeat": [ 1, 3 ], "magazine": 100 },
         { "group": "guns_rifle_common", "x": 20, "y": 10, "chance": 90, "repeat": [ 1, 3 ], "magazine": 100 },
         { "group": "guns_rifle_common", "x": 20, "y": 11, "chance": 90, "repeat": [ 1, 3 ], "magazine": 100 },
         { "group": "guns_rifle_common", "x": 20, "y": 12, "chance": 90, "repeat": [ 1, 3 ], "magazine": 100 },
-        { "group": "guns_smg_common", "x": 17, "y": 13, "chance": 85, "repeat": [ 1, 3 ], "magazine": 100 },
-        { "group": "guns_smg_rare", "x": 18, "y": 13, "chance": 15, "magazine": 100 },
-        { "group": "ammo_common", "x": 3, "y": [ 7, 10 ], "chance": 100, "repeat": [ 1, 8 ] },
-        { "group": "ammo_pistol_common", "x": 3, "y": 7, "chance": 100, "repeat": [ 1, 8 ] },
-        { "group": "ammo_shotgun_common", "x": 3, "y": 8, "chance": 95, "repeat": [ 1, 8 ] },
-        { "group": "ammo_rifle_common", "x": 3, "y": 9, "chance": 95, "repeat": [ 1, 6 ] },
+        { "group": "guns_smg_improvised", "x": 17, "y": 13, "chance": 85, "repeat": [ 1, 3 ], "magazine": 100 },
+        { "group": "guns_milspec", "x": 18, "y": 13, "chance": 15, "magazine": 100 },
+        { "group": "ammo_common_boxed", "x": 3, "y": [ 7, 10 ], "chance": 100, "repeat": [ 1, 8 ] },
+        { "group": "ammo_cop", "x": 3, "y": 7, "chance": 100, "repeat": [ 1, 8 ] },
+        { "group": "ammo_shotgun_milspec", "x": 3, "y": 8, "chance": 95, "repeat": [ 1, 8 ] },
+        { "group": "ammo_rifle_milspec", "x": 3, "y": 9, "chance": 95, "repeat": [ 1, 6 ] },
         { "group": "mags_common", "x": 3, "y": 10, "chance": 100, "repeat": [ 1, 4 ] },
-        { "group": "mags_pistol_common", "x": 3, "y": 9, "chance": 100, "repeat": [ 1, 4 ] },
-        { "group": "mags_rifle_common", "x": 3, "y": 8, "chance": 75, "repeat": [ 1, 4 ] },
-        { "group": "mags_shotgun_common", "x": 3, "y": 7, "chance": 50, "repeat": [ 1, 4 ] },
-        { "group": "mags_pistol_rare", "x": 3, "y": [ 7, 10 ], "chance": 50 },
-        { "group": "mags_rifle_rare", "x": 3, "y": [ 7, 10 ], "chance": 25 },
-        { "group": "mags_shotgun_rare", "x": 3, "y": [ 7, 10 ], "chance": 10 },
+        { "group": "mags_cop", "x": 3, "y": 9, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "mags_milspec", "x": 3, "y": 8, "chance": 75, "repeat": [ 1, 4 ] },
+        { "group": "mags_shotgun_makeshift", "x": 3, "y": 7, "chance": 50, "repeat": [ 1, 4 ] },
+        { "group": "mags_cop", "x": 3, "y": [ 7, 10 ], "chance": 50 },
+        { "group": "mags_swat", "x": 3, "y": [ 7, 10 ], "chance": 25 },
+        { "group": "mags_surplus", "x": 3, "y": [ 7, 10 ], "chance": 10 },
         { "group": "book_gunmags", "x": 8, "y": [ 8, 9 ], "chance": 100, "repeat": [ 1, 8 ] },
         { "group": "book_gunmags", "x": 8, "y": [ 11, 12 ], "chance": 50, "repeat": [ 1, 8 ] },
         {
@@ -2040,7 +2018,6 @@
   {
     "//": "Gun Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 125,
     "object": {
@@ -2079,7 +2056,6 @@
         "5": "t_secro_window_bars_flesh",
         ";": "t_secro_floor_flesh",
         "@": "t_secro_shrub_flesh",
-        "A": "t_secro_atm_flesh",
         "D": "t_secro_door_flesh",
         "L": "t_secro_door_metal_locked_flesh",
         "_": "t_secro_pavement_flesh",
@@ -2089,6 +2065,7 @@
         "4": "t_secro_gutter_downspout_flesh"
       },
       "furniture": {
+        "A": "t_secro_atm_flesh",
         "?": "f_secro_console_broken_flesh",
         "#": "f_counter",
         "a": "f_stool",
@@ -2104,25 +2081,24 @@
       "toilets": { ";": {  } },
       "place_loot": [
         { "group": "guns_pistol_rare", "x": [ 8, 10 ], "y": 19, "chance": 100, "repeat": [ 1, 2 ], "magazine": 100 },
-        { "group": "guns_shotgun_rare_static", "x": [ 8, 10 ], "y": 19, "chance": 80, "magazine": 100 },
-        { "group": "guns_rifle_rare", "x": [ 13, 16 ], "y": 19, "chance": 100, "magazine": 100 },
-        { "group": "guns_smg_rare", "x": [ 13, 16 ], "y": 19, "chance": 80, "magazine": 100 },
-        { "group": "ammo_rare", "x": [ 10, 13 ], "y": 17, "chance": 100, "repeat": [ 1, 4 ] },
-        { "group": "ammo_pistol_common", "x": [ 7, 9 ], "y": [ 9, 10 ], "chance": 100, "repeat": [ 3, 8 ] },
-        { "group": "ammo_rifle_common", "x": [ 7, 9 ], "y": 12, "chance": 100, "repeat": [ 1, 8 ] },
-        { "group": "ammo_shotgun_common", "x": [ 7, 9 ], "y": 13, "chance": 100, "repeat": [ 1, 6 ] },
+        { "group": "guns_swat", "x": [ 8, 10 ], "y": 19, "chance": 80, "magazine": 100 },
+        { "group": "guns_smg_milspec", "x": [ 13, 16 ], "y": 19, "chance": 100, "magazine": 100 },
+        { "group": "guns_milspec", "x": [ 13, 16 ], "y": 19, "chance": 80, "magazine": 100 },
+        { "group": "ammo_swat", "x": [ 10, 13 ], "y": 17, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "ammo_cop", "x": [ 7, 9 ], "y": [ 9, 10 ], "chance": 100, "repeat": [ 3, 8 ] },
+        { "group": "ammo_rifle_milspec", "x": [ 7, 9 ], "y": 12, "chance": 100, "repeat": [ 1, 8 ] },
+        { "group": "ammo_shotgun_milspec", "x": [ 7, 9 ], "y": 13, "chance": 100, "repeat": [ 1, 6 ] },
         { "group": "guns_pistol_common", "x": 14, "y": [ 9, 10 ], "chance": 85, "repeat": [ 1, 3 ] },
         { "group": "guns_shotgun_common", "x": 15, "y": [ 9, 10 ], "chance": 85, "repeat": [ 1, 3 ] },
         { "group": "guns_rifle_common", "x": 16, "y": [ 9, 10 ], "chance": 85, "repeat": [ 1, 3 ] },
         { "group": "mags_common", "x": [ 14, 16 ], "y": 12, "chance": 100, "repeat": [ 1, 8 ] },
-        { "group": "mags_rare", "x": [ 14, 16 ], "y": 13, "chance": 75, "repeat": [ 1, 3 ] }
+        { "group": "mags_milspec", "x": [ 14, 16 ], "y": 13, "chance": 75, "repeat": [ 1, 3 ] }
       ]
     }
   },
   {
     "//": "Gun Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 125,
     "object": {
@@ -2160,7 +2136,6 @@
         ".": "t_secro_floor_flesh",
         "5": "t_secro_window_bars_flesh",
         "@": "t_secro_shrub_flesh",
-        "A": "t_secro_atm_flesh",
         "C": "t_door_frame",
         "D": "t_door_o",
         "L": "t_secro_door_metal_locked_flesh",
@@ -2173,6 +2148,7 @@
         "4": "t_secro_gutter_downspout_flesh"
       },
       "furniture": {
+        "A": "t_secro_atm_flesh",
         "#": "f_counter",
         "E": "f_desk",
         "S": "f_sink",
@@ -2200,9 +2176,9 @@
         { "item": "corpse", "x": 12, "y": 15, "chance": 100 },
         { "group": "guns_pistol_common", "x": 10, "y": 14, "chance": 100, "repeat": [ 1, 3 ], "magazine": 100 },
         { "group": "guns_shotgun_common", "x": 12, "y": 15, "chance": 100, "repeat": [ 1, 3 ] },
-        { "group": "ammo_common", "x": [ 8, 12 ], "y": [ 17, 19 ], "chance": 90, "repeat": [ 1, 8 ] },
+        { "group": "ammo_common_boxed", "x": [ 8, 12 ], "y": [ 17, 19 ], "chance": 90, "repeat": [ 1, 8 ] },
         { "group": "guns_pistol_rare", "x": 10, "y": 14, "chance": 10, "magazine": 100 },
-        { "group": "guns_shotgun_rare_static", "x": 12, "y": 15, "chance": 10, "magazine": 100 },
+        { "group": "guns_swat", "x": 12, "y": 15, "chance": 10, "magazine": 100 },
         { "group": "default_zombie_death_drops", "x": 10, "y": 14, "chance": 100 },
         { "group": "default_zombie_death_drops", "x": 12, "y": 15, "chance": 100 },
         { "item": "can_food", "x": 8, "y": 18, "chance": 100, "repeat": [ 1, 3 ] },
@@ -2218,7 +2194,6 @@
   },
   {
     "//": "Gun Shop",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "type": "mapgen",
     "weight": 125,
@@ -2297,10 +2272,10 @@
         { "chance": 40, "item": "gunmod_rare", "x": 3, "y": 12 },
         { "chance": 85, "item": "book_gunmags", "x": 9, "y": 8 },
         { "chance": 5, "item": "guns_pistol_rare", "x": 3, "y": 11 },
-        { "chance": 75, "item": "ammo_rifle_common", "x": 18, "y": 14 },
-        { "chance": 75, "item": "ammo_rifle_common", "x": 6, "y": 7 },
+        { "chance": 75, "item": "ammo_rifle_milspec", "x": 18, "y": 14 },
+        { "chance": 75, "item": "ammo_rifle_milspec", "x": 6, "y": 7 },
         { "chance": 60, "item": "gunmod_common", "x": [ 12, 14 ], "y": 9 },
-        { "chance": 95, "item": "ammo_common", "x": 6, "y": [ 5, 6 ] },
+        { "chance": 95, "item": "ammo_common_boxed", "x": 6, "y": [ 5, 6 ] },
         { "chance": 85, "item": "guns_rifle_common", "x": [ 17, 18 ], "y": 5 },
         { "chance": 95, "item": "guns_common", "x": 9, "y": [ 6, 7 ] },
         { "chance": 95, "item": "guns_common", "x": 19, "y": [ 5, 7 ] },
@@ -2312,7 +2287,6 @@
   {
     "//": "Liquor Shop",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_shop_flesh" ],
     "weight": 525,
     "object": {
@@ -2390,7 +2364,6 @@
     }
   },
   {
-    "method": "json",
     "object": {
       "place_item": [
         { "item": "cig_butt", "repeat": 1, "x": 21, "y": 4 },
@@ -2477,7 +2450,6 @@
     "weight": 200
   },
   {
-    "method": "json",
     "object": {
       "furniture": {
         "B": "f_bigmirror",
@@ -2565,7 +2537,6 @@
     "weight": 100
   },
   {
-    "method": "json",
     "object": {
       "furniture": {
         "#": "f_chair",
@@ -2582,9 +2553,9 @@
         "{": "f_locker"
       },
       "place_items": [
-        { "chance": 10, "item": "floor_trash", "x": 8, "y": 15 },
-        { "chance": 10, "item": "floor_trash", "x": 5, "y": 15 },
-        { "chance": 10, "item": "floor_trash", "x": 13, "y": 6 },
+        { "chance": 10, "item": "SUS_trash_floor", "x": 8, "y": 15 },
+        { "chance": 10, "item": "SUS_trash_floor", "x": 5, "y": 15 },
+        { "chance": 10, "item": "SUS_trash_floor", "x": 13, "y": 6 },
         { "chance": 75, "item": "beauty", "x": 3, "y": 12 },
         { "chance": 75, "item": "beauty", "x": 2, "y": 9 },
         { "chance": 25, "item": "magazines", "x": 2, "y": 7 },
@@ -2666,7 +2637,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "weight": 1000,
     "object": {
@@ -2734,7 +2704,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "weight": 1000,
     "object": {
@@ -2833,7 +2802,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "weight": 500,
     "object": {
@@ -2927,7 +2895,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "weight": 500,
     "object": {
@@ -3009,7 +2976,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "s_shop_flesh",
     "weight": 3000,
     "object": {
@@ -3124,7 +3090,6 @@
   {
     "//": "Church",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_park_flesh" ],
     "weight": 500,
     "object": {
@@ -3187,7 +3152,6 @@
   {
     "//": "Church",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_park_flesh" ],
     "weight": 500,
     "object": {
@@ -3266,7 +3230,6 @@
   {
     "//": "house mapgens of 4 to 19 from vanilla.",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -3395,7 +3358,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -3503,7 +3465,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -3626,7 +3587,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -3750,7 +3710,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -3856,7 +3815,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -3969,7 +3927,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -4079,7 +4036,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -4190,7 +4146,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 200,
     "object": {
@@ -4311,7 +4266,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 200,
     "object": {
@@ -4434,7 +4388,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 200,
     "object": {
@@ -4565,7 +4518,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 200,
     "object": {
@@ -4698,7 +4650,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 200,
     "object": {
@@ -4816,7 +4767,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 200,
     "object": {
@@ -4936,7 +4886,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -5073,7 +5022,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_house_flesh" ],
     "weight": 300,
     "object": {
@@ -5197,7 +5145,6 @@
   {
     "//": "Basic roads imitating the original ones.",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_updown_flesh" ],
     "weight": 100,
     "object": {
@@ -5247,7 +5194,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_updown_sidewalk_flesh" ],
     "weight": 100,
     "object": {
@@ -5297,7 +5243,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_leftright_flesh" ],
     "weight": 100,
     "object": {
@@ -5347,7 +5292,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_leftright_sidewalk_flesh" ],
     "weight": 100,
     "object": {
@@ -5397,7 +5341,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_4d_flesh" ],
     "weight": 100,
     "object": {
@@ -5447,7 +5390,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_verti_end_flesh" ],
     "weight": 100,
     "object": {
@@ -5497,7 +5439,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_hori_end_flesh" ],
     "weight": 100,
     "object": {
@@ -5548,7 +5489,6 @@
   {
     "//": "These roads - tee and curved - has sidewalks in them, used mostly inside the city. As these mapgens function as overmap terrains, we have separated them into 4 per directions - `l`eft `r`ight `u`p `d`own - to show their respected symbols in the overmap.",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_tee_lru_flesh" ],
     "weight": 100,
     "object": {
@@ -5598,7 +5538,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_tee_lrd_flesh" ],
     "weight": 100,
     "object": {
@@ -5648,7 +5587,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_tee_lud_flesh" ],
     "weight": 100,
     "object": {
@@ -5698,7 +5636,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_tee_rud_flesh" ],
     "weight": 100,
     "object": {
@@ -5748,7 +5685,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_curve_ru_flesh" ],
     "weight": 100,
     "object": {
@@ -5798,7 +5734,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_curve_lu_flesh" ],
     "weight": 100,
     "object": {
@@ -5848,7 +5783,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_curve_rd_flesh" ],
     "weight": 100,
     "object": {
@@ -5898,7 +5832,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_curve_ld_flesh" ],
     "weight": 100,
     "object": {
@@ -5948,7 +5881,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_flesh_city_core" ],
     "weight": 100,
     "object": {
@@ -6003,7 +5935,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_flesh_city_core_up" ],
     "weight": 100,
     "object": {
@@ -6045,7 +5976,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_flesh_city_core_upper" ],
     "weight": 100,
     "object": {
@@ -6087,7 +6017,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_flesh_city_core_uppest" ],
     "weight": 100,
     "object": {
@@ -6124,7 +6053,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_flesh_city_core_uppest_roof" ],
     "weight": 100,
     "object": {
@@ -6160,7 +6088,6 @@
   },
   {
     "//": "Fields that serves as outlines at the city's edges.",
-    "method": "json",
     "object": {
       "fill_ter": "t_dirt",
       "rows": [
@@ -6230,7 +6157,6 @@
   {
     "//": "Make a transition between flesh and normal roads. Normal road will then be connected to the local roads.",
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "secro_rd_connect_flesh" ],
     "weight": 100,
     "object": {
