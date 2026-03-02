@@ -165,7 +165,6 @@
     "see_cost": 5
   },
   {
-    "method": "json",
     "object": {
       "monster": { "t": { "monster": "mon_turret" } },
       "rows": [
@@ -214,7 +213,6 @@
     "weight": 100
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_grass",
       "monster": { "t": { "monster": "mon_turret" } },
@@ -261,7 +259,6 @@
     "weight": 100
   },
   {
-    "method": "json",
     "object": {
       "add": [
         { "item": "textbook_robots", "repeat": 1, "x": 4, "y": 14 },
@@ -336,7 +333,6 @@
     "weight": 100
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "furniture": { "f": "f_locker", "g": "f_bed", "h": "f_toilet", "i": "f_desk", "j": "f_armchair", "k": "f_indoor_plant" },
@@ -404,7 +400,6 @@
   },
   {
     "//": "Armored BOWs are confined inside the glass.",
-    "method": "json",
     "object": {
       "computers": {
         "g": {
@@ -494,7 +489,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "computers": {
         "i": {
@@ -601,7 +595,6 @@
   },
   {
     "//": "Failed specimens, placed like a littered garbage in glasses.",
-    "method": "json",
     "object": {
       "computers": {
         "g": {
@@ -664,7 +657,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "computers": {
         "k": {
@@ -727,7 +719,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "add": [
         { "item": "recipe_animal", "repeat": 1, "x": 16, "y": 5 },
@@ -757,7 +748,7 @@
         { "chance": 60, "item": "lab_pants", "x": 10, "y": 6 },
         { "chance": 60, "item": "lab_torso", "x": 10, "y": 6 },
         { "chance": 60, "item": "lab_shoes", "x": 10, "y": 6 },
-        { "chance": 25, "item": "guns_rifle_rare", "x": 17, "y": 5 }
+        { "chance": 25, "item": "guns_smg_milspec", "x": 17, "y": 5 }
       ],
       "place_item": [ { "item": "secro_id_fvvault", "x": 10, "y": 6 } ],
       "place_monster": [ { "monster": "mon_zombie_scientist", "x": 17, "y": 7 }, { "monster": "mon_zombie_scientist", "x": 14, "y": 8 } ],
@@ -808,7 +799,6 @@
     "weight": 100
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_metal_floor",
       "rows": [
@@ -865,7 +855,6 @@
   },
   {
     "//": "Encountering the dragon is unpleasant. It's better to see weak zombies other than that.",
-    "method": "json",
     "object": {
       "place_items": [
         { "chance": 90, "item": "lab_pants", "x": 20, "y": 13 },
@@ -918,7 +907,6 @@
   },
   {
     "//": "SECRONOM CITY MUTANT ZEDS, NO SWARMERS.",
-    "method": "json",
     "object": {
       "add": [ { "item": "corpse", "repeat": 1, "x": 13, "y": 1 }, { "item": "corpse", "repeat": 1, "x": 8, "y": 3 } ],
       "place_fields": [
@@ -975,12 +963,11 @@
     "weight": 600
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "place_items": [
         { "chance": 100, "group": "tools_medical", "repeat": [ 7 ], "x": 27, "y": [ 13, 15 ] },
-        { "chance": 50, "item": "guns_rifle_rare", "repeat": [ 3 ], "x": 6, "y": [ 13, 15 ] }
+        { "chance": 50, "item": "guns_smg_milspec", "repeat": [ 3 ], "x": 6, "y": [ 13, 15 ] }
       ],
       "rows": [
         "                        ",
@@ -1047,12 +1034,11 @@
     "weight": 200
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "place_items": [
         { "chance": 100, "group": "tools_medical", "repeat": [ 7 ], "x": 27, "y": [ 13, 15 ] },
-        { "chance": 50, "item": "guns_rifle_rare", "repeat": [ 3 ], "x": 6, "y": [ 13, 15 ] }
+        { "chance": 50, "item": "guns_smg_milspec", "repeat": [ 3 ], "x": 6, "y": [ 13, 15 ] }
       ],
       "rows": [
         "                        ",
@@ -1114,7 +1100,6 @@
     "weight": 1000
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "rows": [
@@ -1155,7 +1140,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "rows": [
@@ -1196,7 +1180,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "rows": [
@@ -1237,7 +1220,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "rows": [
@@ -1278,7 +1260,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_strconc_wall",
       "rows": [
@@ -1313,7 +1294,6 @@
     "type": "mapgen"
   },
   {
-    "method": "json",
     "object": {
       "fill_ter": "t_dirt",
       "rows": [
@@ -1354,7 +1334,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_deadscientist",
     "object": {
       "mapgensize": [ 5, 5 ],
@@ -1375,7 +1354,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_bloodmess",
     "object": {
       "mapgensize": [ 5, 5 ],
@@ -1389,7 +1367,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_laserturret",
     "object": {
       "mapgensize": [ 1, 1 ],
@@ -1398,31 +1375,26 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_laserturretbroke",
     "object": { "mapgensize": [ 1, 1 ], "place_item": [ { "item": "broken_secro_laserturret", "x": 0, "y": 0 } ] }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_electurret",
     "object": { "mapgensize": [ 1, 1 ], "place_monster": [ { "monster": "mon_secro_electurret", "x": 0, "y": 0, "friendly": true } ] }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_electurretbroke",
     "object": { "mapgensize": [ 1, 1 ], "place_item": [ { "item": "broken_secro_electurret", "x": 0, "y": 0 } ] }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_gravturret",
     "object": { "mapgensize": [ 1, 1 ], "place_monster": [ { "monster": "mon_secro_gravturret", "x": 0, "y": 0, "friendly": true } ] }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "SecronomSSBunker_nest_gravturretbroke",
     "object": { "mapgensize": [ 1, 1 ], "place_item": [ { "item": "broken_secro_gravturret", "x": 0, "y": 0 } ] }
   }
