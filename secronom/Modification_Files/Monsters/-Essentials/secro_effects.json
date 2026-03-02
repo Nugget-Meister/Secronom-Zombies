@@ -377,10 +377,10 @@
     "scaling_mods": { "speed_mod": [ 10 ] },
     "enchantments": [
       {
-        "values": [
-          { "value": "ARMOR_BASH", "multiply": -0.33 },
-          { "value": "ARMOR_CUT", "multiply": -0.33 },
-          { "value": "ARMOR_STAB", "multiply": -0.33 }
+        "incoming_damage_mod": [
+          { "type": "bash", "multiply": 1.33 },
+          { "type": "stab", "multiply": 1.33 },
+          { "type": "cut", "multiply": 1.33 }
         ]
       }
     ]
@@ -400,10 +400,11 @@
     "scaling_mods": { "speed_mod": [ -15 ] },
     "enchantments": [
       {
-        "values": [
-          { "value": "ARMOR_BASH", "multiply": -0.1 },
-          { "value": "ARMOR_CUT", "multiply": -0.1 },
-          { "value": "ARMOR_STAB", "multiply": -0.1 }
+        "incoming_damage_mod": [
+          { "type": "bash", "multiply": 1.10 },
+          { "type": "stab", "multiply": 1.10 },
+          { "type": "cut", "multiply": 1.10 },
+          { "type": "bullet", "multiply": 1.10 }
         ]
       }
     ]

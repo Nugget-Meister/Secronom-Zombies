@@ -86,11 +86,11 @@
     "id": "secro_maneater_bloodexp_eff",
     "enchantments": [
       {
-        "values": [
-          { "value": "ARMOR_BASH", "multiply": -0.66 },
-          { "value": "ARMOR_CUT", "multiply": -0.66 },
-          { "value": "ARMOR_STAB", "multiply": -0.66 },
-          { "value": "ARMOR_BULLET", "multiply": -0.66 }
+        "incoming_damage_mod": [
+          { "type": "bash", "multiply": 1.33 },
+          { "type": "stab", "multiply": 1.33 },
+          { "type": "cut", "multiply": 1.33 },
+          { "type": "bullet", "multiply": 1.33 }
         ]
       }
     ],
@@ -102,11 +102,11 @@
     "id": "secro_zombie_fleshysnaky_coiling",
     "enchantments": [
       {
-        "values": [
-          { "value": "ARMOR_BASH", "multiply": -0.25 },
-          { "value": "ARMOR_CUT", "multiply": -0.25 },
-          { "value": "ARMOR_STAB", "multiply": -0.25 },
-          { "value": "ARMOR_BULLET", "multiply": -0.25 }
+        "incoming_damage_mod": [
+          { "type": "bash", "multiply": 1.25 },
+          { "type": "stab", "multiply": 1.25 },
+          { "type": "cut", "multiply": 1.25 },
+          { "type": "bullet", "multiply": 1.25 }
         ]
       }
     ],
