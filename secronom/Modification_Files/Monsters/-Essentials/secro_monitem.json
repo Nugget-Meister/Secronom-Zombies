@@ -3,7 +3,8 @@
     "//": "Eating this vile meat mends your body, even broken limbs! (not head and torso, ofc).",
     "id": "sflesh_bio",
     "copy-from": "flesh",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "flesh chunk" },
     "description": "Fresh chunk of meat from the melting flesh you can tell as its precious innard. Both gross and odd looking, but possesses regenerative properties which mends deep wounds when eaten.",
     "weight": "436 g",
@@ -16,8 +17,9 @@
     "healthy": -3,
     "fun": -30,
     "cooks_like": "meat_cooked",
+    "smoking_result": "sflesh_bio_smoked",
     "vitamins": [ [ "vitC", 13 ], [ "calcium", 2 ], [ "iron", 61 ] ],
-    "flags": [ "SMOKABLE", "RAW" ],
+    "flags": [ "RAW" ],
     "use_action": {
       "type": "consume_drug",
       "activation_message": "<color_light_green>As you chomp down the flesh, your body feels refreshed.</color>",
@@ -36,8 +38,7 @@
         { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "leg_r" },
         { "id": "cureall", "duration": 1 }
       ]
-    },
-    "smoking_result": "sflesh_bio_smoked"
+    } 
   },
   {
     "id": "sflesh_bio_cooked",
@@ -45,7 +46,8 @@
     "weight": "436 g",
     "volume": "500 ml",
     "spoils_in": "1 day",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "cooked flesh chunk" },
     "description": "This is a chunk of freshly cooked flesh, though it regenerative properties has dimished significant and tastes the same.",
     "symbol": "%",
@@ -79,7 +81,8 @@
   {
     "id": "sflesh_bio_smoked",
     "copy-from": "sflesh_bio_cooked",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "smoked flesh chunk" },
     "description": "A disgusting chunk of flesh that has been smoked for preservation.",
     "symbol": "%",
