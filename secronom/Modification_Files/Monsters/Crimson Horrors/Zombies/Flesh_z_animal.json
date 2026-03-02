@@ -9,7 +9,7 @@
     "proportional": { "hp": 1.25, "speed": 0.85, "bleed_rate": 0.33 },
     "extend": { "species": [ "SFLESH" ] }
   },
-  {
+   {
     "id": "mon_sflesh_dog_skeleton",
     "copy-from": "mon_dog_skeleton",
     "burn_into": "mon_dog_skeleton",
