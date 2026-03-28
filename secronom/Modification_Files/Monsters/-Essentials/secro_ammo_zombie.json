@@ -22,7 +22,7 @@
     "range": 18,
     "damage": { "damage_type": "stab", "amount": 4, "armor_penetration": 8 },
     "recovery_chance": 89,
-    "effects": [ "NEVER_MISFIRES", "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
+    "effects": [  "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "use_action": { 
       "target": "SSxgrenadeact", 
@@ -64,7 +64,7 @@
     "range": 18,
     "damage": { "damage_type": "stab", "amount": 4, "armor_penetration": 8 },
     "recovery_chance": 89,
-    "effects": [ "NEVER_MISFIRES", "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
+    "effects": [  "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "use_action": { 
       "target": "SSygrenadeact", 
@@ -105,7 +105,7 @@
     "range": 18,
     "damage": { "damage_type": "stab", "amount": 4, "armor_penetration": 8 },
     "recovery_chance": 89,
-    "effects": [ "NEVER_MISFIRES", "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
+    "effects": [  "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "use_action": { 
       "target": "SSzgrenadeact", 
